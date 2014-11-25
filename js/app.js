@@ -1,5 +1,6 @@
 var app = angular.module('Test',['ngStorage']);
 app.controller("BodyController", function($scope,$localStorage){
+    /*Scope iniciales*/
     $scope.newObject = {};
     $scope.historysave = true;
     $scope.c1 = $localStorage.c1 || 500;
